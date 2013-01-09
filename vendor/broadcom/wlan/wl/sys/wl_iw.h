@@ -71,14 +71,14 @@ struct cntry_locales_custom {
 
 
 #define	WL_IW_RSSI_MINVAL	-200
-#define	WL_IW_RSSI_NO_SIGNAL	-98
-#define	WL_IW_RSSI_VERY_LOW	-87
-#define	WL_IW_RSSI_LOW		-77
-#define	WL_IW_RSSI_GOOD		-75
-#define	WL_IW_RSSI_VERY_GOOD	-65
-#define	WL_IW_RSSI_EXCELLENT	-64
+#define	WL_IW_RSSI_NO_SIGNAL	-110
+#define	WL_IW_RSSI_VERY_LOW	-100
+#define	WL_IW_RSSI_LOW		-85
+#define	WL_IW_RSSI_GOOD		-70
+#define	WL_IW_RSSI_VERY_GOOD	-64
+#define	WL_IW_RSSI_EXCELLENT	-60
 #define	WL_IW_RSSI_INVALID	 0
-#define MAX_WX_STRING 80
+#define MAX_WX_STRING 87
 #define isprint(c) bcm_isprint(c)
 #define WL_IW_SET_ACTIVE_SCAN	(SIOCIWFIRSTPRIV+1)
 #define WL_IW_GET_RSSI			(SIOCIWFIRSTPRIV+3)
